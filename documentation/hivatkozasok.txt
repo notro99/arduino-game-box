@@ -1,0 +1,5 @@
+https://www.arduino.cc/en/guide/introduction# - What is Arduino?
+https://create.arduino.cc/projecthub/electropeak/pir-motion-sensor-how-to-use-pirs-w-arduino-raspberry-pi-18d7fa - PIR
+https://www.arrow.com/en/research-and-events/articles/understanding-active-and-passive-infrared-sensors - PIR részletesen
+https://electropeak.com/pir-motion-sensor - PIR kép felülről
+https://www.avnet.com/wps/portal/abacus/resources/article/adapting-pir-sensor-technology-to-new-applications/ - PIR működés közben
