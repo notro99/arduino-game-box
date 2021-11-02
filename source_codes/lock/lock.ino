@@ -39,7 +39,7 @@ void loop() {
   Serial.println();
   Serial.print("Belepes : ");
   tagUid.toUpperCase(); //Minden betűt nagybetűre állítunk
-  if (tagUid.substring(1) == "XX XX XX XX") {//Itt ellenőrízhetjük, hogy a megadottak között volt-e a próbált RFID tag
+  if (tagUid.substring(1) == "XX XX XX XX" || tagUid.substring(1) == "XX XX XX XX") {//Itt ellenőrízhetjük, hogy a megadottak között volt-e a próbált RFID tag
     Serial.println("Jovahagyva"); 
     Serial.println();
     delay(500); //A program elején megadott ideig késlelteti a továbbhaladást
@@ -53,5 +53,13 @@ void loop() {
     noTone(BUZZER); //A piezo hangjelző a noTone() hívásáig fog hangot kibocsájtani
   }
 }
+
+//...
+
+
+
+
+
+
 
 
