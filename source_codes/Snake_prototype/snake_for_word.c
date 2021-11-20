@@ -128,7 +128,7 @@ void calculateSnake() { //Kígyó mozgásának kiszámolása
       wallDetection(); //Fal ellenőrző függvény meghívása
       matrix.setLed(0, snake.row, snake.col, 1);
       break;
-
+    //...
     case right:
       snake.col++;
       wallDetection();
