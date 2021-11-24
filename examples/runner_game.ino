@@ -233,7 +233,7 @@ void setup(){
   digitalWrite(PIN_AUTOPLAY, HIGH);
   
   // Digital pin 2 maps to interrupt 0
-  attachInterrupt(0/*PIN_BUTTON*/, buttonPush, FALLING);
+  attachInterrupt(0/*PIN_BUTTON*/, buttonPush, RISING);
   
   initializeGraphics();
   
@@ -277,7 +277,7 @@ void loop(){
       newTerrainDuration = 2 + random(10);
     } else {
       newTerrainType = TERRAIN_EMPTY;
-      newTerrainDuration = 10 + random(10);
+      newTerrainDuration = 20 + random(10);
     }
   }
     
