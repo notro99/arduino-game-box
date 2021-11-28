@@ -252,7 +252,7 @@ void loop(){
     drawHero((blink) ? HERO_POSITION_OFF : heroPos, terrainUpper, terrainLower, distance >> 3);
     if (blink) {
       lcd.setCursor(0,0);
-      lcd.print("Press Start");
+      lcd.print("Mozgasd a kezed!");
     }
     delay(250);
     blink = !blink;
